@@ -1,0 +1,102 @@
+
+body {
+    background-color: #f5f3e8; 
+    color: #333; 
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 1000px;
+    border: 1px solid #ccc; 
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  
+
+  .topbar {
+    background-color: #ffffff; 
+    border-bottom: 2px solid #ccc; 
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .nav-link {
+    color: #555; 
+    transition: color 0.3s, font-weight 0.3s;
+  }
+  .nav-link:hover {
+    color: #222; 
+    font-weight: 600;
+  }
+  
+  a, a:visited, a:active, a:focus {
+    color: #555; 
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  a:hover {
+    color: #222; 
+    text-decoration: underline;
+  }
+  
+
+  h1, h2, h5 {
+    color: #222; 
+    margin-bottom: 1rem;
+  }
+  
+  .card-like {
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card-like:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  }
+  
+  .card-like h5 {
+    background-color: #f0ebd8; 
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    display: inline-block;
+  }
+  
+  .reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  footer {
+    padding: 1.5rem 0;
+    color: #666;
+    border-top: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-top: 3rem;
+  }
+
+  section {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd; 
+  section:last-child {
+    border-bottom: none;
+  }
+  
